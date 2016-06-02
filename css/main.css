@@ -1,50 +1,84 @@
-.container{
-  background-color: white;
-  background-image: url("http://2.bp.blogspot.com/-RnUoFZJ84HA/TdHvRS50vcI/AAAAAAAAGoA/eOWJ8b4oBv8/s1600/DSC_0082-1.JPG");
-  background-size: cover;
+
+body{
+  
+  background-color: black
 }
-.block{
-  background-color: black;
-  border-radius: 25px;
+.bodyB2{
+  background-image: url("http://www.shangri-la.com/uploadedImages/Shangri-la_Hotels/Shangri-La_Hotel,_Chengdu/SLCD-Bg-Hotel-Exterior(1).jpg");
+  background-size: cover;
+  padding: 150px 200px 400px 300px;
+  
+}
+.bodyB3{
+  background-image:  url("http://facsen.wsu.edu/WSUPullman080902990.jpg");
+  background-size: cover;
+  padding: 400px;
+}
+.bodyB1{
+  background-image:  url("http://book.amtrakvacations.com/images/SeattleCity2.jpg");
+  background-size: cover;
+  padding: 130px 50px 600px 50px;
+  
   
 }
 
-.inner{
-  color: #6EECFA;
-  padding:10px;;
+.bodyB4{
+  background-image:  url("http://d1udmfvw0p7cd2.cloudfront.net/wp-content/uploads/2013/12/p14-milner-xiao-long-bao-a-20140101.jpg");
+  background-size: cover;
+  padding: 200px;100px;700px;100px;
 }
-#search-box{
+
+.fixed {
+    position: fixed;
+    right: 5px;
+}
+.portBox{
+  border-color: black;
+  border-width: 1px;
   text-align: center;
-  padding-top: 200px
+  border-style: solid;
+  placeholder = "1"
 }
-.button {
-                position:relative;
-                padding:6px 15px;
-                left:-8px;
-                border:2px solid #207cca;
-                background-color:#207cca;
-                color:#fafafa;
+.title{
+  font-family: Lobster;
+  font-size: 50px
 }
-form {
-                width:500px;
-                margin:50px auto;
+.subTitle{
+  font-size:25px;
+  font-family:times
 }
-.in{
-                padding:8px 15px;
-                background:rgba(50, 50, 50, 0.2);
-                border:0px solid #dbdbdb;
-}
-::-webkit-input-placeholder {
-   color: #6EECFA;
-}
-:-ms-input-placeholder {  
-   color: red;  
-}
-input{
-  color:white;
-}
-.random{
+.name{
   font-size:30px;
-  color: #6EECFA;
-  font-family:Times;
+  font-family:cursive;
+}
+.pic{
+  width: 250px;
+  border-color: rgb(114,218,252);
+  border-width: 2px;
+  border-radius: 80%;
+  border-style:solid
+}
+.nameabout{
+  font-size:40px;
+  font-family:times;
+  color: white;
+}
+.about{
+  font-size:20px;
+  font-family:Impact;
+  color:black;
+  line-height:38px
+}
+.aboutl{
+  font-size:20px;
+  font-family:Impact;
+  color:white;
+  line-height:38px
+}
+.bar{
+  //padding-right: 30px;
+  background-color:white;
+}
+.contactB{
+  margin: 20px;
 }
