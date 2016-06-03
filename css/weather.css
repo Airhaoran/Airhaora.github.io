@@ -1,0 +1,46 @@
+.container{
+  background-color: black;
+}
+.title{
+  font-family:Lobster;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.upper{
+  padding-top: 100px
+}
+.x{
+  font-family:Times;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+}
+.city{
+  color: #45F5F2;
+  font-size: 40px;
+  text-align: center;
+  ffont-family:Times;
+}
+.weather{
+  color: #D2F719;
+  font-size: 35px;
+  text-align: center;
+  font-family:Times;
+}
+.icon{
+  text-align: center;
+}
+.com{
+  color: #F74219;
+  font-size: 35px;
+  text-align: center;
+  font-family:cursive;
+}
+.row{
+  text-align: center;
+}
+.change{
+  font-size: 20px;
+  text-align: center;
+}
