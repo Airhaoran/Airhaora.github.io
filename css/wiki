@@ -1,0 +1,51 @@
+.container{
+  background-color: white;
+  background-image: url("http://2.bp.blogspot.com/-RnUoFZJ84HA/TdHvRS50vcI/AAAAAAAAGoA/eOWJ8b4oBv8/s1600/DSC_0082-1.JPG");
+  background-size: cover;
+}
+.block{
+  background-color: black;
+  border-radius: 25px;
+  
+}
+
+.inner{
+  color: #6EECFA;
+  padding:10px;;
+}
+#search-box{
+  text-align: center;
+  padding-top: 200px
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+form {
+                width:500px;
+                margin:50px auto;
+}
+.in{
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+::-webkit-input-placeholder {
+   color: #6EECFA;
+}
+:-ms-input-placeholder {  
+   color: red;  
+}
+input{
+  color:white;
+}
+.random{
+  font-size:30px;
+  color: #6EECFA;
+  font-family:Times;
+}
+Raw
