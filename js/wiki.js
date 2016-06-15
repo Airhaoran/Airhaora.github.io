@@ -2,14 +2,14 @@ var playListURL1 = 'https://en.wikipedia.org/w/api.php?format=json&action=query&
 var playListURL2 = '&callback=?'
 var response;
 
-$('document').ready(function(){
+
 
   function myFunction() {
     var x = document.getElementById("search");
     text = x.elements[0].value;
     response = text;
   };
-  
+  $('document').ready(function(){
   //lalan = myFunction();
   $(".mysearch").click(function() {
     var turn = response;
